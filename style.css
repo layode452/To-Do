@@ -1,0 +1,13 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#big{
+    margin-top: 90px;
+    border-radius: 20px;
+}
+
+.firstbtn button{
+    width: 385px;
+    
+}
