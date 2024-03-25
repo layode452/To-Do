@@ -18,7 +18,7 @@ function showTodos() {
     show.innerHTML = ""
     allTodos.map((task, index) => {
         show.innerHTML += `
-                <div class="card text-bg-dark mb-3 w-100" style="width: 100%;">
+                <div class="card text-bg-dark mb-3 col-4" style="width: 270px;">
 
                 <div class="card-body">
                     <h5 class="card-title fs-4"><p>${index + 1}. ${task}</p></h5>
