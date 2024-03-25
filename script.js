@@ -15,6 +15,7 @@ function submitTodo() {
 }
 
 function showTodos() {
+    newTodo.value = todo.value
     show.innerHTML = ""
     allTodos.map((task, index) => {
         show.innerHTML += `
